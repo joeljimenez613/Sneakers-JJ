@@ -1,0 +1,73 @@
+.payment-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resumen-carrito {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    max-width: 300px;
+}
+
+.payment-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    max-width: 600px;
+}
+
+.payment-form h2 {
+    margin-top: 0;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-column {
+    width: 48%;
+}
+
+.payment-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="email"],
+.payment-form select,
+.payment-form input[type="radio"],
+.payment-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.submit-button {
+    background-color:#218838 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #FF1493;
+}
+
+#resumen-carrito {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="estilo-general.css">
+    <link rel="stylesheet" href="detalle-producto.css">
+    <link href="img/Logo Jj.jpg" rel="icon">
+</head>
+<body>
+    <header>
+<!-- Navegación Superior -->
+<div class="nav-superior">
+    <ul class="redes-sociales">
+        <li><a href="http://wa.me//63573288" target="_blank"><img src="img/Whastapp.jpg" alt="Whastapp"></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100037564037807&mibextid=ZbWKwL" target="_blank"><img src="img/Facebook.jpg" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/_joel0047?igsh=NmUxMnZiM2Z5N3Bp" target="_blank"> <img src="img/Instagram.jpg" alt="Instagram"></a></li>
+    </ul>
+</div>
+
+
+        <nav class="menu-principal">
+            <img src="img/Logo Jj.jpg" alt="Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="acerca.html">Acerca de la Empresa</a></li>
+                <li><a href="atencion-cliente.html">Atención al Cliente</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="pago-envio.html">Pago y Envío</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container product-detail">
+        <a href="javascript:history.back()" class="back-button"><i class="fas fa-arrow-left"></i> Regresar</a>
+        <div class="row">
+            <div class="col-md-6 product-image">
+                <img src="img/Zapatilla 4.jpg" alt="Zapatillas 4">
+            </div>
+            <div class="col-md-6 product-info">
+                <h2> Zapatillas Nike Air Force 1 '07 Lv8 </h2>
+                <p>Precio: $<span id="precio">159.95</span></p>
+                <div class="options">
+                    <div class="option">
+                    <div class="option">
+                        <label for="talla">Talla:</label>
+                        <select id="talla">
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+
+                        </select>
+                    </div>
+                    <div class="option">
+                        <label for="cantidad">Cantidad:</label>
+                        <input type="number" id="cantidad" name="cantidad" min="1" max="4" value="1">
+                    </div>
+                    <p>Total: $<span id="total">145.95</span></p>
+                    <button class="btn btn-primary" id="addToCart"><i class="fas fa-cart-plus"></i> Añadir al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+   <!-- Start Footer -->
+<footer class="bg-dark" id="tempaltemo_footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-success border-bottom pb-3 border-light logo">Sneakers  Jj.</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        Provincia de Panamá, Nuevo Tocumen.
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw"></i>
+                        <a class="text-decoration-none" href="tel:+507 6357-3288">+507 6357-3288</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a class="text-decoration-none" href="mailto:joeljimeneznov21@gmail.com">joeljimeneznov21@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="Ropa.html">Ropa deportiva</a></li>
+                    <li><a class="text-decoration-none" href="Zapatillas.html">Zapatos de hombres</a></li>
+                    <li><a class="text-decoration-none" href="Bolsos.html">Bolsos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Información adicional</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                    <li><a class="text-decoration-none" href="acerca.css">Sobre nosotros</a></li>
+                    <li><a class="text-decoration-none" href="atencion-cliente.css">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <div class="col-auto me-auto">
+                <ul class="list-inline text-left footer-icons">
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.facebook.com/profile.php?id=100037564037807&mibextid=ZbWKwL"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href=""><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <label class="sr-only" for="subscribeEmail">Dirección de correo electrónico</label>
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control bg-dark border-light" id="suscribirse" placeholder="Correo Electrónico">
+                    <div class="input-group-text btn-success text-light">Subscribe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-left text-light">
+                         &copy; 2024 Joel Jimenez | Diseñado por SNEAKERS JJ.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->
+
+
+
+ <!-- jQuery -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Scripts de Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="carrito.js"></script>
+    <script src="detalle-Z4.js"></script>
+</body>
+</html>

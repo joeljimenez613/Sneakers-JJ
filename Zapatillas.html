@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAPATILLAS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo-general.css">
+    <link rel="stylesheet" href="tienda.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Estilos personalizados -->
+    <link href="path/to/estilos-footer.css" rel="stylesheet"> <!-- Asegúrate de que la ruta sea correcta -->
+     <!-- Favicon -->
+     <link href="img/Logo Jj.jpg" rel="icon">
+</head>
+<body>
+    <header>
+        <!-- Navegación Superior -->
+        <div class="nav-superior">
+            <ul class="redes-sociales">
+                <li><a href="http://wa.me//63573288" target="_blank"><img src="img/Whastapp.jpg" alt="Whastapp"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100037564037807&mibextid=ZbWKwL" target="_blank"><img src="img/Facebook.jpg" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/_joel0047?igsh=NmUxMnZiM2Z5N3Bp" target="_blank"><img src="img/Instagram.jpg" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        
+        <!-- Menú Principal -->
+        <nav class="menu-principal">
+            <img src="img/Logo Jj.jpg" alt="Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="acerca.html">Acerca de la Empresa</a></li>
+                <li><a href="atencion-cliente.html">Atención al Cliente</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="pago-envio.html">Pago y Envío</a></li>
+            </ul>
+        </nav>
+        <button class="open-btn" onclick="toggleSidebar()">☰ Categorías</button>
+
+        <div class="sidebar" id="sidebar">
+            <a href="#" class="main-category" onclick="toggleSidebar()">Categorías</a>
+            <div class="subcategories">
+            <a href="Zapatillas.html">Zapatillas </a>
+            <a href="Ropa.html">Ropa Deportiva</a>
+            <a href="Bolsos.html">Bolsos</a>
+            </div>
+        </div>
+
+    </header>
+    <div class="main-content">
+        <h1><b>ZAPATILLAS</b></h1>
+        <div class="product-grid">
+            <div class="product-item">
+                <a href="detalle-Z1.html">
+                    <img src="img/Zapatillas 1.jpg" alt="Zapatillas 1">
+                    <p>Zapatilla Nike Terminator Low  </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z2.html">
+                    <img src="img/Zapatillas 2.jpg" alt="Zapatillas 2">
+                    <p>Zapatillas  Nike Dunk Low </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z3.html">
+                    <img src="img/zapatilla 3.jpg" alt="zapatillas 3">
+                    <p>Zapatillas Nike Air Dunk Jumbo </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z4.html">
+                    <img src="img/Zapatilla 4.jpg" alt="Zapatilla 4">
+                    <p>Zapatillas Nike Air Force 1 '07 Lv8 </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z5.html">
+                    <img src="img/zapatillas 5.jpg" alt="zapatillas 5">
+                    <p>Zapatillas Jorda Spizike Low </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z6.html">
+                    <img src="img/Zapatillas 6.jpg" alt="Zapatillas 6">
+                    <p>Zapatilla Nike</p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z7.html">
+                    <img src="img/Zapatillas 7.jpg" alt="Zapatillas 7">
+                    <p>Zapatillas Nike Blazer Low '77 Vintage </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z8.html">
+                    <img src="img/Zapatilla 8.jpg" alt="Zapatilla 8">
+                    <p>Zapatilla Nike AirForce 1 Mid'07 Lx </p>
+                </a>
+            </div>
+            <div class="product-item">
+                <a href="detalle-Z9.html">
+                    <img src="img/Zapatilla  9.jpg" alt="Zapatilla  9">
+                    <p>Zapatilla Nike Cortez Basic Sl</p>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            if (sidebar.style.display === 'none' || sidebar.style.display === '') {
+                sidebar.style.display = 'block';
+            } else {
+                sidebar.style.display = 'none';
+            }
+        }
+    </script>
+    </body>
+    </html>
